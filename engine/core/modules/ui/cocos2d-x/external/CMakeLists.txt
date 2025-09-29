@@ -140,6 +140,6 @@ nau_install(ext_convertUTF core)
 install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/poly2tri DESTINATION ${CMAKE_INSTALL_PREFIX}/include/modules/ui/cocos2d-x/external FILES_MATCHING PATTERN "*.h" PATTERN "*.hpp" PATTERN "*.ipp")
 nau_install(ext_poly2tri core)
 
-# nau_install(png core)
+nau_install(png core)
 
 nau_install(external core)

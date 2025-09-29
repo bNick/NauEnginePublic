@@ -1,3 +1,5 @@
+add_subdirectory(3rdparty_libs)
+
 if(NAU_ENGINE_KERNEL)
   message(NOTICE "Building engine kernel")
   add_subdirectory(core/kernel)
@@ -5,4 +7,3 @@ if(NAU_ENGINE_KERNEL)
 endif()
 
 add_subdirectory(core)
-add_subdirectory(3rdparty_libs)
