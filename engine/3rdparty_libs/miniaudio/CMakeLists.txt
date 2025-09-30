@@ -5,5 +5,5 @@ project(miniaudio LANGUAGES CXX)
 set(TargetName miniaudio)
 
 add_library(${TargetName} INTERFACE)
-# target_include_directories(${TargetName} INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/)
 nau_install(miniaudio core)
+target_include_directories(${TargetName} INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/)
